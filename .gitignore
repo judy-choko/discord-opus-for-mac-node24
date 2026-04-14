@@ -17,6 +17,7 @@ pids
 build/
 build-tmp*/
 include/
-!deps/opus/include
+!/deps/opus/
+!/deps/opus/**
 prebuild/
 test/

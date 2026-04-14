@@ -39,6 +39,15 @@
 		"x64",
 		"arm64"
 	],
+	"files": [
+		"lib",
+		"src",
+		"deps",
+		"typings",
+		"binding.gyp",
+		"LICENSE",
+		"README.md"
+	],
 	"dependencies": {
 		"node-addon-api": "^8.5.0"
 	},
