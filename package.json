@@ -1,7 +1,18 @@
 {
-	"name": "@discordjs/opus",
+	"name": "@judy-choko/discord-opus-for-mac-node24",
 	"version": "0.10.0",
-	"description": "Opus bindings for Node",
+	"description": "Opus bindings for Node.js on macOS, built locally for Node 24 without remote prebuilt downloads",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/judy-choko/discord-opus-for-mac-node24.git"
+	},
+	"homepage": "https://github.com/judy-choko/discord-opus-for-mac-node24#readme",
+	"bugs": {
+		"url": "https://github.com/judy-choko/discord-opus-for-mac-node24/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "lib/index.js",
 	"types": "typings/index.d.ts",
 	"author": "iCrawl <icrawltogo@gmail.com>",
@@ -21,10 +32,6 @@
 		"c++",
 		"bindings"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/discordjs/opus.git"
-	},
 	"os": [
 		"darwin"
 	],
@@ -36,13 +43,13 @@
 		"node-addon-api": "^8.5.0"
 	},
 	"devDependencies": {
+		"@eslint/js": "^9.39.1",
 		"@types/node": "^25.0.0",
 		"eslint": "^9.39.1",
-		"eslint-config-neon": "^0.2.9",
-		"eslint-formatter-pretty": "^7.0.0",
 		"node-gyp": "^12.1.0",
-		"prettier": "^3.7.4",
-		"typescript": "~5.9.3"
+		"prettier": "^3.8.2",
+		"typescript": "~5.9.3",
+		"typescript-eslint": "^8.58.1"
 	},
 	"overrides": {
 		"eslint-plugin-rxjs": "npm:@favware/skip-dependency@latest",
