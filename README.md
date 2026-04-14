@@ -1,6 +1,8 @@
-# @discordjs/opus [![Build](https://github.com/discordjs/opus/workflows/Build/badge.svg)](https://github.com/discordjs/opus/actions?query=workflow%3ABuild) [![Prebuild](https://github.com/discordjs/opus/workflows/Prebuild/badge.svg)](https://github.com/discordjs/opus/actions?query=workflow%3APrebuild)
+# @discordjs/opus
 
 > Native bindings to libopus v1.5
+
+This fork targets macOS only and builds from source during installation with `node-gyp`.
 
 ## Usage
 
@@ -18,11 +20,7 @@ const decoded = encoder.decode(encoded);
 
 ## Platform support
 
-⚠ Node.js v20 or newer is required.
+⚠ Node.js 24.x on macOS is required.
 
-- Linux x64 & ia32
-- Linux arm (RPi 1 & 2)
-- Linux arm64 (RPi 3)
 - macOS x64
 - macOS arm64
-- Windows x64
